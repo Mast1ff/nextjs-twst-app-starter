@@ -2,9 +2,12 @@ import React from 'react';
 import Document, { Html, Head, Main, NextScript } from 'next/document';
 
 class MyDocument extends Document {
-    render(): JSX.Element {
+    render (): JSX.Element {
         return (
-            <Html lang={ 'ja' }>
+            <Html
+                lang={ 'ja' }
+                prefix={ 'og: http://ogp.me/ns#' }
+            >
                 <Head>
                     <meta httpEquiv='content-language' content='ja' />
                 </Head>
