@@ -1,0 +1,134 @@
+.st-flex {
+    display: flex;
+}
+.st-flex-row {
+    flex-direction: row;
+}
+.st-flex-row-reverse {
+    flex-direction: row-reverse;
+}
+.st-flex-col {
+    flex-direction: column;
+}
+.st-flex-col-reverse {
+    flex-direction: column-reverse;
+}
+.st-flex-wrap {
+    flex-wrap: wrap;
+}
+.st-flex-wrap-reverse {
+    flex-wrap: wrap-reverse;
+}
+.st-flex-nowrap {
+    flex-wrap: nowrap;
+}
+.st-flex-1 {
+    flex: 1 1 0%;
+}
+.st-flex-auto {
+    flex: 1 1 auto;
+}
+.st-flex-initial {
+    flex: 0 1 auto;
+}
+.st-flex-none {
+    flex: none;
+}
+.st-flex-grow-0 {
+    flex-grow: 0;
+}
+.st-flex-grow-1 {
+    flex-grow: 1;
+}
+.st-flex-shrink-0 {
+    flex-shrink: 0;
+}
+.st-flex-shrink-1 {
+    flex-shrink: 1;
+}
+.st-order-1 {
+    order: 1;
+}
+.st-order-2 {
+    order: 2;
+}
+.st-order-3 {
+    order: 3;
+}
+.st-order-4 {
+    order: 4;
+}
+.st-order-5 {
+    order: 5;
+}
+.st-order-6 {
+    order: 6;
+}
+.st-order-7 {
+    order: 7;
+}
+.st-order-8 {
+    order: 8;
+}
+.st-order-9 {
+    order: 9;
+}
+.st-order-10 {
+    order: 10;
+}
+.st-order-11 {
+    order: 11;
+}
+.st-order-12 {
+    order: 12;
+}
+.st-order-first {
+    order: -9999;
+}
+.st-order-last {
+    order: 9999;
+}
+
+.st-justify-start {
+    justify-content: flex-start;
+}
+
+.st-justify-end {
+    justify-content: flex-end;
+}
+
+.st-justify-center {
+    justify-content: center;
+}
+
+.st-justify-between {
+    justify-content: space-between;
+}
+
+.st-justify-around {
+    justify-content: space-around;
+}
+
+.st-justify-evenly {
+    justify-content: space-evenly;
+}
+
+.st-items-start {
+    align-items: flex-start;
+}
+
+.st-items-end {
+    align-items: flex-end;
+}
+
+.st-items-center {
+    align-items: center;
+}
+
+.st-items-baseline {
+    align-items: baseline;
+}
+
+.st-items-stretch {
+    align-items: stretch;
+}

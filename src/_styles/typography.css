@@ -1,0 +1,167 @@
+.st-font-sans {
+    font-family: 'Ubuntu', "Hiragino Sans", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, Osaka, "MS PGothic", "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+
+.st-font-serif {
+    font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.st-font-mono {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.st-text-xs {
+    font-size: .75rem;
+    line-height: 1rem;
+}
+
+.st-text-sm {
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
+
+.st-text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.st-text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+
+.st-text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+
+.st-text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.st-text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+}
+
+.st-text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+}
+
+.st-text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+}
+
+.st-line-height-1 {
+    line-height: 1;
+}
+
+.st-line-height-1-2 {
+    line-height: 1.2;
+}
+
+.st-line-height-1-5 {
+    line-height: 1.5;
+}
+
+.st-line-height-1-8 {
+    line-height: 1.8;
+}
+
+.st-line-height-2 {
+    line-height: 2;
+}
+
+.st-antialiased {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.st-subpixel-antialiased {
+    -webkit-font-smoothing: auto;
+    -moz-osx-font-smoothing: auto;
+}
+
+.st-font-italic {
+    font-style: italic;
+}
+
+.st-font-not-italic {
+    font-style: normal;
+}
+
+.st-font-normal {
+    font-weight: 400;
+}
+
+.st-font-bold {
+    font-weight: 700;
+}
+
+.st-font-black {
+    font-weight: 900;
+}
+
+.st-text-underline {
+    text-decoration: underline;
+}
+
+.st-text-line-through {
+    text-decoration: line-through;
+}
+
+.st-text-no-underline {
+    text-decoration: none;
+}
+
+.st-text-left {
+    text-align: left;
+}
+
+.st-text-center {
+    text-align: center;
+}
+
+.st-text-right {
+    text-align: right;
+}
+
+.st-text-justify {
+    text-align: justify;
+}
+
+.st-whitespace-normal {
+    white-space: normal;
+}
+
+.st-whitespace-nowrap {
+    white-space: nowrap;
+}
+
+.st-whitespace-pre {
+    white-space: pre;
+}
+
+.st-whitespace-pre-line {
+    white-space: pre-line;
+}
+
+.st-whitespace-pre-wrap {
+    white-space: pre-wrap;
+}
+
+.st-break-normal {
+    overflow-wrap: normal;
+    word-break: normal;
+}
+
+.st-break-words {
+    overflow-wrap: break-word;
+}
+
+.st-break-all {
+    word-break: break-all;
+}

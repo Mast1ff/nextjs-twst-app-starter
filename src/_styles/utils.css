@@ -1,0 +1,514 @@
+/* background */
+.st-bg-fixed {
+    background-attachment: fixed;
+}
+
+.st-bg-local {
+    background-attachment: local;
+}
+
+.st-bg-scroll {
+    background-attachment: scroll;
+}
+
+.st-bg-clip-border {
+    background-clip: border-box;
+}
+
+.st-bg-clip-padding {
+    background-clip: padding-box;
+}
+
+.st-bg-clip-content {
+    background-clip: content-box;
+}
+
+.st-bg-clip-text {
+    background-clip: text;
+}
+
+.st-bg-bottom {
+    background-position: bottom;
+}
+
+.st-bg-center {
+    background-position: center;
+}
+
+.st-bg-top {
+    background-position: top;
+}
+
+.st-bg-left {
+    background-position: left;
+}
+
+.st-bg-left-bottom {
+    background-position: left bottom;
+}
+
+.st-bg-left-top {
+    background-position: left top;
+}
+
+.st-bg-right {
+    background-position: right;
+}
+
+.st-bg-right-bottom {
+    background-position: right bottom;
+}
+
+.st-bg-right-top {
+    background-position: right top;
+}
+
+.st-bg-repeat {
+    background-repeat: repeat;
+}
+
+.st-bg-repeat-x {
+    background-repeat: repeat-x;
+}
+
+.st-bg-repeat-y {
+    background-repeat: repeat-y;
+}
+
+.st-bg-no-repeat {
+    background-repeat: no-repeat;
+}
+
+.st-bg-auto {
+    background-size: auto;
+}
+
+.st-bg-cover {
+    background-size: cover;
+}
+
+.st-bg-contain {
+    background-size: contain;
+}
+
+
+/* border */
+.st-border-0 {
+    border-width: 0px;
+}
+
+.st-border-1 {
+    border-width: 1px;
+}
+
+.st-border-top-1 {
+    border-top-width: 1px;
+}
+
+.st-border-right-1 {
+    border-right-width: 1px;
+}
+
+.st-border-left-1 {
+    border-left-width: 1px;
+}
+
+.st-border-bottom-1 {
+    border-bottom-width: 1px;
+}
+
+.st-border-2 {
+    border-width: 2px;
+}
+
+.st-border-top-2 {
+    border-top-width: 2px;
+}
+
+.st-border-right-2 {
+    border-right-width: 2px;
+}
+
+.st-border-left-2 {
+    border-left-width: 2px;
+}
+
+.st-border-bottom-2 {
+    border-bottom-width: 2px;
+}
+
+.st-border-4 {
+    border-width: 4px;
+}
+
+.st-border-8 {
+    border-width: 8px;
+}
+
+.st-border-solid {
+    border-style: solid;
+}
+
+.st-border-dashed {
+    border-style: dashed;
+}
+
+.st-border-dotted {
+    border-style: dotted;
+}
+
+.st-border-double {
+    border-style: double;
+}
+
+.st-border-none {
+    border-style: none;
+}
+
+.st-border-radius-1 {
+    border-radius: 1px;
+}
+
+.st-border-radius-2 {
+    border-radius: 2px;
+}
+
+.st-border-radius-4 {
+    border-radius: 4px;
+}
+
+.st-border-radius-6 {
+    border-radius: 6px;
+}
+
+.st-border-radius-8 {
+    border-radius: 8px;
+}
+
+.st-border-radius-round {
+    border-radius: 9999px;
+}
+
+
+/* effects */
+
+.st-opacity-0 {
+    opacity: 0;
+}
+
+.st-opacity-5 {
+    opacity: .05;
+}
+
+.st-opacity-10 {
+    opacity: .1;
+}
+
+.st-opacity-15 {
+    opacity: .15;
+}
+
+.st-opacity-20 {
+    opacity: .2;
+}
+
+.st-opacity-25 {
+    opacity: .25;
+}
+
+.st-opacity-30 {
+    opacity: .3;
+}
+
+.st-opacity-35 {
+    opacity: .35;
+}
+
+.st-opacity-40 {
+    opacity: .4;
+}
+
+.st-opacity-45 {
+    opacity: .45;
+}
+
+.st-opacity-50 {
+    opacity: .5;
+}
+
+.st-opacity-55 {
+    opacity: .55;
+}
+
+.st-opacity-60 {
+    opacity: .6;
+}
+
+.st-opacity-65 {
+    opacity: .65;
+}
+
+.st-opacity-70 {
+    opacity: .7;
+}
+
+.st-opacity-75 {
+    opacity: .75;
+}
+
+.st-opacity-80 {
+    opacity: .8;
+}
+
+.st-opacity-85 {
+    opacity: .85;
+}
+
+.st-opacity-90 {
+    opacity: .9;
+}
+
+.st-opacity-95 {
+    opacity: .95;
+}
+
+.st-opacity-100 {
+    opacity: 1;
+}
+
+/* transition */
+
+.st-transition-all {
+    transition-property: all;
+}
+
+.st-transition-none {
+    transition-property: none;
+}
+
+.st-transition {
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+}
+
+.st-transition-colors {
+    transition-property: background-color, border-color, color, fill, stroke;
+}
+
+.st-transition-opacity {
+    transition-property: opacity;
+}
+
+.st-transition-shadow {
+    transition-property: box-shadow;
+}
+
+.st-transition-transform {
+    transition-property: transform;
+}
+
+.st-duration-75 {
+    transition-duration: 75ms;
+}
+
+.st-duration-100 {
+    transition-duration: 100ms;
+}
+
+.st-duration-150 {
+    transition-duration: 150ms;
+}
+
+.st-duration-200 {
+    transition-duration: 200ms;
+}
+
+.st-duration-250 {
+    transition-duration: 250ms;
+}
+
+.st-duration-300 {
+    transition-duration: 300ms;
+}
+
+.st-duration-500 {
+    transition-duration: 500ms;
+}
+
+.st-duration-700 {
+    transition-duration: 700ms;
+}
+
+.st-duration-1000 {
+    transition-duration: 1000ms;
+}
+
+.st-delay-75 {
+    transition-delay: 75ms;
+}
+
+.st-delay-100 {
+    transition-delay: 100ms;
+}
+
+.st-delay-150 {
+    transition-delay: 150ms;
+}
+
+.st-delay-200 {
+    transition-delay: 200ms;
+}
+
+.st-delay-250 {
+    transition-delay: 250ms;
+}
+
+.st-delay-300 {
+    transition-delay: 300ms;
+}
+
+.st-delay-500 {
+    transition-delay: 500ms;
+}
+
+.st-delay-700 {
+    transition-delay: 700ms;
+}
+
+.st-delay-1000 {
+    transition-delay: 1000ms;
+}
+
+.st-ease-linear {
+    transition-timing-function: linear;
+}
+
+.st-ease-in {
+    transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+}
+
+.st-ease-out {
+    transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+}
+
+.st-ease-in-out {
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* interactivity */
+
+.st-appearance-none {
+    appearance: none;
+}
+
+.st-cursor-auto {
+    cursor: auto;
+}
+
+.st-cursor-default {
+    cursor: default;
+}
+
+.st-cursor-pointer {
+    cursor: pointer;
+}
+
+.st-cursor-wait {
+    cursor: wait;
+}
+
+.st-cursor-text {
+    cursor: text;
+}
+
+.st-cursor-move {
+    cursor: move;
+}
+
+.st-cursor-not-allowed {
+    cursor: not-allowed;
+}
+
+.st-outline-none {
+    outline: none;
+}
+.st-outline-none:hover,
+.st-outline-none:focus {
+    outline: none;
+}
+
+.st-outline-white {
+    outline: 2px dotted white;
+    outline-offset: 2px;
+}
+
+.st-outline-black {
+    outline: 2px dotted black;
+    outline-offset: 2px;
+}
+
+.st-pointer-events-none {
+    pointer-events: none;
+}
+
+.st-pointer-events-auto {
+    pointer-events: auto;
+}
+
+.st-resize-none {
+    resize: none;
+}
+
+.st-resize-y {
+    resize: vertical;
+}
+
+.st-resize-x {
+    resize: horizontal;
+}
+
+.st-resize {
+    resize: both;
+}
+
+.st-select-none {
+    user-select: none;
+}
+
+.st-select-text {
+    user-select: text;
+}
+
+.st-select-all {
+    user-select: all;
+}
+
+.st-select-auto {
+    user-select: auto;
+}
+
+
+/** svg */
+
+.st-svg-fill-none {
+    fill: none;
+}
+
+.st-svg-fill-current {
+    fill: currentColor;
+}
+
+.st-svg-stroke-current {
+    stroke: currentColor;
+}
+
+.st-svg-stroke-0 {
+    stroke-width: 0;
+}
+
+.st-svg-stroke-1 {
+    stroke-width: 1;
+}
+
+.st-svg-stroke-2 {
+    stroke-width: 2;
+}

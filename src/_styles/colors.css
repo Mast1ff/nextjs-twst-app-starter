@@ -1,0 +1,323 @@
+:root {
+    --stica-pink-1: rgb(113, 17, 44);
+    --stica-pink-2: rgb(128, 19, 50);
+    --stica-pink-3: rgb(143, 21, 55);
+    --stica-pink-4: rgb(158, 23, 61);
+    --stica-pink-5: rgb(173, 25, 67);
+    --stica-pink-6: rgb(187, 28, 73);
+    --stica-pink-7: rgb(202, 30, 78);
+    --stica-pink-8: rgb(217, 32, 84);
+    --stica-pink-9: rgb(224, 42, 94);
+    --stica-pink-10: rgb(226, 57, 105);
+    --stica-pink-11: rgb(228, 72, 116);
+    --stica-pink-12: rgb(230, 87, 127);
+    --stica-pink-13: rgb(232, 102, 138);
+    --stica-pink-14: rgb(235, 116, 150);
+    --stica-pink-15: rgb(237, 131, 161);
+    --white: rgb(255, 255, 255);
+    --black: rgb(20, 16, 18);
+    --gray-1: rgb(20, 16, 18);
+    --gray-2: rgb(28, 24, 26);
+    --gray-3: rgb(36, 32, 34);
+    --gray-4: rgb(44, 40, 42);
+    --gray-5: rgb(60, 56, 58);
+    --gray-6: rgb(68, 64, 66);
+    --gray-7: rgb(84, 80, 82);
+    --gray-8: rgb(132, 128, 130);
+    --gray-9: rgb(172, 168, 170);
+    --gray-10: rgb(204, 200, 202);
+    --gray-11: rgb(212, 208, 210);
+    --gray-12: rgb(228, 224, 226);
+    --gray-13: rgb(236, 232, 234);
+    --gray-14: rgb(244, 240, 242);
+    --gray-15: rgb(252, 248, 250);
+    --red: rgb(240, 71, 71);
+    --light-opac-1: rgba(252, 248, 250, .1);
+    --light-opac-2: rgba(252, 248, 250, .2);
+    --light-opac-4: rgba(252, 248, 250, .4);
+    --light-opac-6: rgba(252, 248, 250, .6);
+    --light-opac-8: rgba(252, 248, 250, .8);
+    --dark-opac-1: rgba(20, 16, 18, .1);
+    --dark-opac-2: rgba(20, 16, 18, .2);
+    --dark-opac-4: rgba(20, 16, 18, .4);
+    --dark-opac-6: rgba(20, 16, 18, .6);
+    --dark-opac-8: rgba(20, 16, 18, .8);
+}
+
+.light-mode {
+    --color-bg-accent: var(--stica-pink-8);
+    --color-bg-accent-alt: var(--stica-pink-7);
+    --color-bg-accent-alt-2: var(--stica-pink-6);
+    --color-bg-base: var(--white);
+    --color-bg-body: var(--gray-15);
+    --color-bg-gray: var(--gray-8);
+    --color-bg-opac-2: var(--light-opac-2);
+    --color-bg-opac-4: var(--light-opac-4);
+    --color-bg-opac-6: var(--light-opac-6);
+    --color-bg-opac-8: var(--light-opac-8);
+    --color-tx-accent: var(--stica-pink-8);
+    --color-tx-base: var(--black);
+    --color-tx-alt: var(--gray-3);
+    --color-tx-alt-2: var(--gray-7);
+    --color-border-base: var(--gray-12);
+    --color-bg-hover: var(--dark-opac-1);
+    --color-shadow-2: var(--dark-opac-2);
+    --color-shadow-4: var(--dark-opac-4);
+    --color-shadow-6: var(--dark-opac-6);
+    --color-shadow-8: var(--dark-opac-8);
+    --color-red: var(--red);
+    --color-white: var(--white);
+    --color-black: var(--black);
+}
+
+.dark-mode {
+    --color-bg-accent: var(--stica-pink-8);
+    --color-bg-accent-alt: var(--stica-pink-7);
+    --color-bg-accent-alt-2: var(--stica-pink-6);
+    --color-bg-base: var(--gray-2);
+    --color-bg-body: var(--gray-1);
+    --color-bg-gray: var(--gray-8);
+    --color-bg-opac-2: var(--dark-opac-2);
+    --color-bg-opac-4: var(--dark-opac-4);
+    --color-bg-opac-6: var(--dark-opac-6);
+    --color-bg-opac-8: var(--dark-opac-8);
+    --color-tx-accent: var(--stica-pink-8);
+    --color-tx-base: var(--white);
+    --color-tx-alt: var(--gray-13);
+    --color-tx-alt-2: var(--gray-9);
+    --color-border-base: var(--gray-4);
+    --color-bg-hover: var(--light-opac-1);
+    --color-shadow-2: var(--dark-opac-2);
+    --color-shadow-4: var(--dark-opac-4);
+    --color-shadow-6: var(--dark-opac-6);
+    --color-shadow-8: var(--dark-opac-8);
+    --color-red: var(--red);
+    --color-white: var(--white);
+    --color-black: var(--black);
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    background-color: var(--color-bg-base);
+    color: rgb(20, 16, 18);
+    color: var(--color-tx-base);
+}
+
+.st-bg-accent {
+    background-color: rgb(217, 32, 84);
+    background-color: var(--color-bg-accent);
+}
+
+.st-bg-accent-alt {
+    background-color: rgb(202, 30, 78);
+    background-color: var(--color-bg-accent-alt);
+}
+
+.st-bg-accent-alt-2 {
+    background-color: rgb(187, 28, 73);
+    background-color: var(--color-bg-accent-alt-2);
+}
+
+.st-bg-transparent {
+    background-color: transparent;
+}
+
+.st-bg-base {
+    background-color: rgb(255, 255, 255);
+    background-color: var(--color-bg-base);
+}
+
+.st-bg-reverse {
+    background-color: rgb(20, 16, 18);
+    background-color: var(--color-tx-base);
+}
+
+.st-bg-body {
+    background-color: rgb(252, 248, 250);
+    background-color: var(--color-bg-body);
+}
+
+.st-bg-red {
+    background-color: rgb(240, 71, 71);
+    background-color: var(--color-red);
+}
+
+.st-bg-white {
+    background-color: rgb(255, 255, 255);
+    background-color: var(--color-white);
+}
+
+.st-bg-black {
+    background-color: rgb(20, 16, 18);
+    background-color: var(--color-black);
+}
+
+.st-bg-opac-2 {
+    background-color: rgba(252, 248, 250, .2);
+    background-color: var(--color-bg-opac-2);
+}
+
+.st-bg-opac-4 {
+    background-color: rgba(252, 248, 250, .4);
+    background-color: var(--color-bg-opac-4);
+}
+
+.st-bg-opac-6 {
+    background-color: rgba(252, 248, 250, .6);
+    background-color: var(--color-bg-opac-6);
+}
+
+.st-bg-opac-8 {
+    background-color: rgba(252, 248, 250, .8);
+    background-color: var(--color-bg-opac-8);
+}
+
+.st-btn-base {
+    background-color: rgb(20, 16, 18);
+    background-color: var(--color-tx-base);
+    border-color: rgb(20, 16, 18);
+    border-color: var(--color-tx-base);
+}
+
+.st-btn-transparent {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.st-btn-accent {
+    background-color: rgb(217, 32, 84);
+    background-color: var(--color-bg-accent);
+    border-color: rgb(217, 32, 84);
+    border-color: var(--color-bg-accent);
+}
+
+.st-btn-gray {
+    background-color: rgb(132, 128, 130);
+    background-color: var(--color-bg-gray);
+    border-color: rgb(132, 128, 130);
+    border-color: var(--color-bg-gray);
+}
+
+.st-btn-red {
+    background-color: rgb(240, 71, 71);
+    background-color: var(--color-red);
+    border-color: rgb(240, 71, 71);
+    border-color: var(--color-red);
+}
+
+.st-btn-border {
+    background-color: transparent !important;
+}
+
+.st-tx-accent {
+    color: rgb(217, 32, 84);
+    color: var(--color-tx-accent);
+}
+
+.st-tx-base {
+    color: rgb(20, 16, 18);
+    color: var(--color-tx-base);
+}
+
+.st-tx-des {
+    color: rgb(36, 32, 34);
+    color: var(--color-tx-alt);
+}
+
+.st-tx-hint {
+    color: rgb(84, 80, 82);
+    color: var(--color-tx-alt-2);
+}
+
+.st-tx-reverse {
+    color: rgb(255, 255, 255);
+    color: var(--color-bg-base);
+}
+
+.st-tx-red {
+    color: rgb(240, 71, 71);
+    color: var(--color-red);
+}
+
+.st-tx-white {
+    color: rgb(255, 255, 255);
+    color: var(--color-white);
+}
+
+.st-tx-black {
+    color: rgb(20, 16, 18);
+    color: var(--color-black);
+}
+
+.st-border-transparent {
+    border-color: transparent;
+}
+
+.st-border-current {
+    border-color: currentColor;
+}
+
+.st-border-base {
+    border-color: rgb(228, 224, 226);
+    border-color: var(--color-border-base);
+}
+
+.st-border-top-base {
+    border-top-color: rgb(228, 224, 226);
+    border-top-color: var(--color-tx-base);
+}
+
+.st-border-right-base {
+    border-right-color: rgb(228, 224, 226);
+    border-right-color: var(--color-tx-base);
+}
+
+.st-border-left-base {
+    border-left-color: rgb(228, 224, 226);
+    border-left-color: var(--color-tx-base);
+}
+
+.st-border-bottom-base {
+    border-bottom-color: rgb(228, 224, 226);
+    border-bottom-color: var(--color-border-base);
+}
+
+.st-border-accent {
+    border-color: rgb(217, 32, 84);
+    border-color: var(--color-bg-accent);
+}
+
+.st-border-top-accent {
+    border-top-color: rgb(217, 32, 84);
+    border-top-color: var(--color-bg-accent);
+}
+
+.st-border-right-accent {
+    border-right-color: rgb(217, 32, 84);
+    border-right-color: var(--color-bg-accent);
+}
+
+.st-border-left-accent {
+    border-left-color: rgb(217, 32, 84);
+    border-left-color: var(--color-bg-accent);
+}
+
+.st-border-bottom-accent {
+    border-bottom-color: rgb(217, 32, 84);
+    border-bottom-color: var(--color-bg-accent);
+}
+
+.st-shadow-2 {
+    box-shadow: 0px 0px 2px 1px rgba(20, 16, 18, .2);
+    box-shadow: 0px 0px 2px 1px var(--color-shadow-2);
+}
+
+.st-shadow-4 {
+    box-shadow: 0px 0px 4px 3px rgba(20, 16, 18, .2);
+    box-shadow: 0px 0px 4px 3px var(--color-shadow-2);
+}
+
+.st-shadow-6 {
+    box-shadow: 0px 0px 6px 5px rgba(20, 16, 18, .2);
+    box-shadow: 0px 0px 6px 5px var(--color-shadow-2);
+}

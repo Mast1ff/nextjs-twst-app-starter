@@ -1,0 +1,40 @@
+[data-inert="true"] {
+    pointer-events: none;
+    cursor: default;
+}
+
+[data-inert="true"], [data-inert="true"] * {
+    user-select: none;
+}
+
+[data-invisible="true"] {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+input, textarea {
+    font-size: 16px;
+}
+
+.st-btn {
+    opacity: 1;
+    transition: opacity .1s ease-in;
+}
+.st-btn.inactive,
+.st-btn:hover,
+.st-btn:focus {
+    opacity: .6;
+}
+
+@media (max-width: 1535px) {}
+@media (max-width: 1279px) {}
+@media (max-width: 1023px) {}
+@media (max-width: 767px) {}
+@media (max-width: 639px) {}
