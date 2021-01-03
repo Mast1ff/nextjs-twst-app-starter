@@ -16,7 +16,7 @@ module.exports = {
         es6: true,
     },
     rules: {
-        indent: ['error', 4],
+        indent: ['error', 4, { SwitchCase: 1 }],
         'no-tabs': 'off',
         'eol-last': 'warn',
         'comma-dangle': 'warn',
