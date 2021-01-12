@@ -1,134 +1,134 @@
-.st-flex {
+.css-flex {
     display: flex;
 }
-.st-flex-row {
+.css-flex-row {
     flex-direction: row;
 }
-.st-flex-row-reverse {
+.css-flex-row-reverse {
     flex-direction: row-reverse;
 }
-.st-flex-col {
+.css-flex-col {
     flex-direction: column;
 }
-.st-flex-col-reverse {
+.css-flex-col-reverse {
     flex-direction: column-reverse;
 }
-.st-flex-wrap {
+.css-flex-wrap {
     flex-wrap: wrap;
 }
-.st-flex-wrap-reverse {
+.css-flex-wrap-reverse {
     flex-wrap: wrap-reverse;
 }
-.st-flex-nowrap {
+.css-flex-nowrap {
     flex-wrap: nowrap;
 }
-.st-flex-1 {
+.css-flex-1 {
     flex: 1 1 0%;
 }
-.st-flex-auto {
+.css-flex-auto {
     flex: 1 1 auto;
 }
-.st-flex-initial {
+.css-flex-initial {
     flex: 0 1 auto;
 }
-.st-flex-none {
+.css-flex-none {
     flex: none;
 }
-.st-flex-grow-0 {
+.css-flex-grow-0 {
     flex-grow: 0;
 }
-.st-flex-grow-1 {
+.css-flex-grow-1 {
     flex-grow: 1;
 }
-.st-flex-shrink-0 {
+.css-flex-shrink-0 {
     flex-shrink: 0;
 }
-.st-flex-shrink-1 {
+.css-flex-shrink-1 {
     flex-shrink: 1;
 }
-.st-order-1 {
+.css-order-1 {
     order: 1;
 }
-.st-order-2 {
+.css-order-2 {
     order: 2;
 }
-.st-order-3 {
+.css-order-3 {
     order: 3;
 }
-.st-order-4 {
+.css-order-4 {
     order: 4;
 }
-.st-order-5 {
+.css-order-5 {
     order: 5;
 }
-.st-order-6 {
+.css-order-6 {
     order: 6;
 }
-.st-order-7 {
+.css-order-7 {
     order: 7;
 }
-.st-order-8 {
+.css-order-8 {
     order: 8;
 }
-.st-order-9 {
+.css-order-9 {
     order: 9;
 }
-.st-order-10 {
+.css-order-10 {
     order: 10;
 }
-.st-order-11 {
+.css-order-11 {
     order: 11;
 }
-.st-order-12 {
+.css-order-12 {
     order: 12;
 }
-.st-order-first {
+.css-order-first {
     order: -9999;
 }
-.st-order-last {
+.css-order-last {
     order: 9999;
 }
 
-.st-justify-start {
+.css-justify-start {
     justify-content: flex-start;
 }
 
-.st-justify-end {
+.css-justify-end {
     justify-content: flex-end;
 }
 
-.st-justify-center {
+.css-justify-center {
     justify-content: center;
 }
 
-.st-justify-between {
+.css-justify-between {
     justify-content: space-between;
 }
 
-.st-justify-around {
+.css-justify-around {
     justify-content: space-around;
 }
 
-.st-justify-evenly {
+.css-justify-evenly {
     justify-content: space-evenly;
 }
 
-.st-items-start {
+.css-items-start {
     align-items: flex-start;
 }
 
-.st-items-end {
+.css-items-end {
     align-items: flex-end;
 }
 
-.st-items-center {
+.css-items-center {
     align-items: center;
 }
 
-.st-items-baseline {
+.css-items-baseline {
     align-items: baseline;
 }
 
-.st-items-stretch {
+.css-items-stretch {
     align-items: stretch;
 }

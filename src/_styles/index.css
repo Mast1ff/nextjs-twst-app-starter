@@ -23,16 +23,6 @@ input, textarea {
     font-size: 16px;
 }
 
-.st-btn {
-    opacity: 1;
-    transition: opacity .1s ease-in;
-}
-.st-btn.inactive,
-.st-btn:hover,
-.st-btn:focus {
-    opacity: .6;
-}
-
 @media (max-width: 1535px) {}
 @media (max-width: 1279px) {}
 @media (max-width: 1023px) {}

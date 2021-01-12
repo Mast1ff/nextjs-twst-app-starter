@@ -1,167 +1,167 @@
-.st-font-sans {
+.css-font-sans {
     font-family: 'Ubuntu', "Hiragino Sans", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, Osaka, "MS PGothic", "Helvetica Neue", Helvetica, Arial, sans-serif
 }
 
-.st-font-serif {
+.css-font-serif {
     font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
-.st-font-mono {
+.css-font-mono {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
-.st-text-xs {
+.css-text-xs {
     font-size: .75rem;
     line-height: 1rem;
 }
 
-.st-text-sm {
+.css-text-sm {
     font-size: .875rem;
     line-height: 1.25rem;
 }
 
-.st-text-base {
+.css-text-base {
     font-size: 1rem;
     line-height: 1.5rem;
 }
 
-.st-text-lg {
+.css-text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
 }
 
-.st-text-xl {
+.css-text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
 }
 
-.st-text-2xl {
+.css-text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
 }
 
-.st-text-3xl {
+.css-text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
 }
 
-.st-text-4xl {
+.css-text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
 }
 
-.st-text-5xl {
+.css-text-5xl {
     font-size: 3rem;
     line-height: 1;
 }
 
-.st-line-height-1 {
+.css-line-height-1 {
     line-height: 1;
 }
 
-.st-line-height-1-2 {
+.css-line-height-1-2 {
     line-height: 1.2;
 }
 
-.st-line-height-1-5 {
+.css-line-height-1-5 {
     line-height: 1.5;
 }
 
-.st-line-height-1-8 {
+.css-line-height-1-8 {
     line-height: 1.8;
 }
 
-.st-line-height-2 {
+.css-line-height-2 {
     line-height: 2;
 }
 
-.st-antialiased {
+.css-antialiased {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
-.st-subpixel-antialiased {
+.css-subpixel-antialiased {
     -webkit-font-smoothing: auto;
     -moz-osx-font-smoothing: auto;
 }
 
-.st-font-italic {
+.css-font-italic {
     font-style: italic;
 }
 
-.st-font-not-italic {
+.css-font-not-italic {
     font-style: normal;
 }
 
-.st-font-normal {
+.css-font-normal {
     font-weight: 400;
 }
 
-.st-font-bold {
+.css-font-bold {
     font-weight: 700;
 }
 
-.st-font-black {
+.css-font-black {
     font-weight: 900;
 }
 
-.st-text-underline {
+.css-text-underline {
     text-decoration: underline;
 }
 
-.st-text-line-through {
+.css-text-line-through {
     text-decoration: line-through;
 }
 
-.st-text-no-underline {
+.css-text-no-underline {
     text-decoration: none;
 }
 
-.st-text-left {
+.css-text-left {
     text-align: left;
 }
 
-.st-text-center {
+.css-text-center {
     text-align: center;
 }
 
-.st-text-right {
+.css-text-right {
     text-align: right;
 }
 
-.st-text-justify {
+.css-text-justify {
     text-align: justify;
 }
 
-.st-whitespace-normal {
+.css-whitespace-normal {
     white-space: normal;
 }
 
-.st-whitespace-nowrap {
+.css-whitespace-nowrap {
     white-space: nowrap;
 }
 
-.st-whitespace-pre {
+.css-whitespace-pre {
     white-space: pre;
 }
 
-.st-whitespace-pre-line {
+.css-whitespace-pre-line {
     white-space: pre-line;
 }
 
-.st-whitespace-pre-wrap {
+.css-whitespace-pre-wrap {
     white-space: pre-wrap;
 }
 
-.st-break-normal {
+.css-break-normal {
     overflow-wrap: normal;
     word-break: normal;
 }
 
-.st-break-words {
+.css-break-words {
     overflow-wrap: break-word;
 }
 
-.st-break-all {
+.css-break-all {
     word-break: break-all;
 }

@@ -1,263 +1,263 @@
 /* container */
 
-.st-container {
+.css-container {
     max-width: 1080px;
 }
 
-.st-nav-container {
+.css-nav-container {
     width: 240px;
 }
 
-.st-app-container {
+.css-app-container {
     width: 840px;
 }
 
 @media (max-width: 1279px) {
-    .st-app-container {
+    .css-app-container {
         width: 600px;
     }
 }
 @media (max-width: 1023px) {
-    .st-app-container {
+    .css-app-container {
         width: 100%;
         max-width: 100%;
     }
 }
 
-.st-portal-window {
+.css-portal-window {
     max-width: 600px;
 }
 
-.st-full-width {
+.css-full-width {
     width: 100%;
 }
 
-.st-full-height {
+.css-full-height {
     height: 100%;
 }
 
-.st-full-min-width {
+.css-full-min-width {
     min-width: 100%;
 }
 
-.st-full-min-height {
+.css-full-min-height {
     min-height: 100%;
 }
 
-.st-full-max-height {
+.css-full-max-height {
     max-height: 100%;
 }
 
 
 /* box-sizing */
 
-.st-box-border {
+.css-box-border {
     box-sizing: border-box;
 }
 
-.st-box-content {
+.css-box-content {
     box-sizing: content-box;
 }
 
 /* display */
 
-.st-block {
+.css-block {
     display: block;
 }
 
-.st-inline-block {
+.css-inline-block {
     display: inline-block;
 }
 
-.st-inline {
+.css-inline {
     display: inline;
 }
 
-.st-table {
+.css-table {
     display: table;
 }
 
-.st-table-caption {
+.css-table-caption {
     display: table-caption;
 }
 
-.st-table-cell {
+.css-table-cell {
     display: table-cell;
 }
 
-.st-table-column {
+.css-table-column {
     display: table-column;
 }
 
-.st-table-column-group {
+.css-table-column-group {
     display: table-column-group;
 }
 
-.st-table-row {
+.css-table-row {
     display: table-row;
 }
 
-.st-table-row-group {
+.css-table-row-group {
     display: table-row-group;
 }
 
-.st-table-footer-group {
+.css-table-footer-group {
     display: table-footer-group;
 }
 
-.st-table-header-group {
+.css-table-header-group {
     display: table-footer-group;
 }
 
 /* overflow */
 
-.st-overflow-auto {
+.css-overflow-auto {
     overflow: auto;
 }
 
-.st-overflow-hidden {
+.css-overflow-hidden {
     overflow: hidden;
 }
 
-.st-overflow-visible {
+.css-overflow-visible {
     overflow: visible;
 }
 
-.st-overflow-scroll {
+.css-overflow-scroll {
     overflow: scroll;
 }
 
-.st-overflow-x-auto {
+.css-overflow-x-auto {
     overflow-x: auto;
 }
 
-.st-overflow-x-hidden {
+.css-overflow-x-hidden {
     overflow-x: hidden;
 }
 
-.st-overflow-x-visible {
+.css-overflow-x-visible {
     overflow-x: visible;
 }
 
-.st-overflow-x-scroll {
+.css-overflow-x-scroll {
     overflow-x: scroll;
 }
 
-.st-overflow-y-auto {
+.css-overflow-y-auto {
     overflow-y: auto;
 }
 
-.st-overflow-y-hidden {
+.css-overflow-y-hidden {
     overflow-y: hidden;
 }
 
-.st-overflow-y-visible {
+.css-overflow-y-visible {
     overflow-y: visible;
 }
 
-.st-overflow-y-scroll {
+.css-overflow-y-scroll {
     overflow-y: scroll;
 }
 
 /* position */
 
-.st-position-static {
+.css-position-static {
     position: static;
 }
 
-.st-position-fixed {
+.css-position-fixed {
     position: fixed;
 }
 
-.st-position-relative {
+.css-position-relative {
     position: relative;
 }
 
-.st-position-absolute {
+.css-position-absolute {
     position: absolute;
 }
 
-.st-position-sticky {
+.css-position-sticky {
     position: sticky;
 }
 
-.st-inset-0 {
+.css-inset-0 {
     top: 0px;
     right: 0px;
     left: 0px;
     bottom: 0px;
 }
 
-.st-inset-y-0 {
+.css-inset-y-0 {
     top: 0px;
     bottom: 0px;
 }
 
-.st-inset-x-0 {
+.css-inset-x-0 {
     right: 0px;
     left: 0px;
 }
 
-.st-top-0 {
+.css-top-0 {
     top: 0px;
 }
 
-.st-right-0 {
+.css-right-0 {
     right: 0px;
 }
 
-.st-left-0 {
+.css-left-0 {
     left: 0px;
 }
 
-.st-bottom-0 {
+.css-bottom-0 {
     bottom: 0px;
 }
 
 /* visibility */
 
-.st-visible {
+.css-visible {
     visibility: visible;
 }
 
-.st-invisible {
+.css-invisible {
     visibility: hidden;
 }
 
 /* z-index */
 
-.st-z-0 {
+.css-z-0 {
     z-index: 0;
 }
 
-.st-z-10 {
+.css-z-10 {
     z-index: 10;
 }
 
-.st-z-20 {
+.css-z-20 {
     z-index: 20;
 }
 
-.st-z-30 {
+.css-z-30 {
     z-index: 30;
 }
 
-.st-z-40 {
+.css-z-40 {
     z-index: 40;
 }
 
-.st-z-50 {
+.css-z-50 {
     z-index: 50;
 }
 
-.st-z-auto {
+.css-z-auto {
     z-index: auto;
 }
 
-.st-z-foreground {
+.css-z-foreground {
     z-index: 9999;
 }
 
-.st-z-background {
+.css-z-background {
     z-index: -9999;
 }
