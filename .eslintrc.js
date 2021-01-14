@@ -36,7 +36,6 @@ module.exports = {
             ObjectPattern: { multiline: true },
         }],
         'object-curly-spacing': ['warn', 'always'],
-        'space-before-function-paren': ['warn', 'always'],
         'no-underscore-dangle': 'off',
         'no-template-curly-in-string': 'error',
         'no-return-assign': 'off',
