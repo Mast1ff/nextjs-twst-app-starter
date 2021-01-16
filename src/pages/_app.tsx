@@ -14,19 +14,17 @@ import '../_styles/utils.css';
 import '../_styles/colors.css';
 import '../_styles/index.css';
 
-const MyApp = ({ Component, pageProps }: AppProps): JSX.Element => {
-    return (
-        <>
-            <NextProgress />
-            <Head>
-                <meta
-                    name='viewport'
-                    content='width=device-width, initial-scale=1'
-                />
-            </Head>
-            <Component { ...pageProps } />
-        </>
-    );
-};
+const MyApp = ({ Component, pageProps }: AppProps): JSX.Element => (
+    <>
+        <NextProgress />
+        <Head>
+            <meta
+                name='viewport'
+                content='width=device-width, initial-scale=1'
+            />
+        </Head>
+        <Component { ...pageProps } />
+    </>
+);
 
 export default MyApp;

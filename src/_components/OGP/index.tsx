@@ -23,33 +23,31 @@ const OGP: React.FC<I> = ({
     twitter = true,
     facebook = true,
     fbAppId,
-}) => {
-    return (
-        <Head>
-            <title>{`${pageName ? `${pageName} | ` : ''}${title}`}</title>
-            <meta name={ 'description' } content={ description || '' } />
-            <meta property={ 'og:type' } content={ 'website' } />
-            <meta property={ 'og:title' } content={ title } />
-            <meta property={ 'og:description' } content={ description || '' } />
-            <meta property={ 'og:image' } content={ image || '' } />
-            <meta property={ 'og:url' } content={ `${hostname}${path}` } />
-            <meta property={ 'og:site_name' } content={ title } />
-            {twitter
-                ? (
-                    <>
-                        <meta name={ 'twitter:card' } content={ 'summary_large_image' } />
-                        <meta name={ 'twitter:title' } content={ title } />
-                        <meta name={ 'twitter:description' } content={ description || '' } />
-                    </>
-                )
-                : null}
-            {facebook
-                ? (
-                    <meta property='fb:app_id' content={ fbAppId } />
-                )
-                : null}
-        </Head>
-    );
-};
+}) => (
+    <Head>
+        <title>{`${pageName ? `${pageName} | ` : ''}${title}`}</title>
+        <meta name={ 'description' } content={ description || '' } />
+        <meta property={ 'og:type' } content={ 'website' } />
+        <meta property={ 'og:title' } content={ title } />
+        <meta property={ 'og:description' } content={ description || '' } />
+        <meta property={ 'og:image' } content={ image || '' } />
+        <meta property={ 'og:url' } content={ `${hostname}${path}` } />
+        <meta property={ 'og:site_name' } content={ title } />
+        {twitter
+            ? (
+                <>
+                    <meta name={ 'twitter:card' } content={ 'summary_large_image' } />
+                    <meta name={ 'twitter:title' } content={ title } />
+                    <meta name={ 'twitter:description' } content={ description || '' } />
+                </>
+            )
+            : null}
+        {facebook
+            ? (
+                <meta property='fb:app_id' content={ fbAppId } />
+            )
+            : null}
+    </Head>
+);
 
 export default OGP;
