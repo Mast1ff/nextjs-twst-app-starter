@@ -23,7 +23,9 @@ const MyApp = ({ Component, pageProps }: AppProps): JSX.Element => (
                 content='width=device-width, initial-scale=1'
             />
         </Head>
-        <Component { ...pageProps } />
+        <div className={ 'app' }>
+            <Component { ...pageProps } />
+        </div>
     </>
 );
 

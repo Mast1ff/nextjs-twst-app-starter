@@ -1,19 +1,5 @@
 :root {
-    --theme-1: rgb(113, 17, 44);
-    --theme-2: rgb(128, 19, 50);
-    --theme-3: rgb(143, 21, 55);
-    --theme-4: rgb(158, 23, 61);
-    --theme-5: rgb(173, 25, 67);
-    --theme-6: rgb(187, 28, 73);
-    --theme-7: rgb(202, 30, 78);
-    --theme-8: rgb(217, 32, 84);
-    --theme-9: rgb(224, 42, 94);
-    --theme-10: rgb(226, 57, 105);
-    --theme-11: rgb(228, 72, 116);
-    --theme-12: rgb(230, 87, 127);
-    --theme-13: rgb(232, 102, 138);
-    --theme-14: rgb(235, 116, 150);
-    --theme-15: rgb(237, 131, 161);
+    --highlight: rgb(117, 25, 163);
     --white: rgb(255, 255, 255);
     --black: rgb(0, 0, 0);
     --gray-1: rgb(24, 24, 24);
@@ -31,7 +17,13 @@
     --gray-13: rgb(232, 232, 232);
     --gray-14: rgb(240, 240, 240);
     --gray-15: rgb(248, 248, 248);
-    --red: rgb(240, 71, 71);
+    --shell: rgb(255, 134, 134);
+    --red: rgb(255, 78, 66);
+    --pink: rgb(217, 32, 84);
+    --beige: rgb(255, 231, 170);
+    --yellow: rgb(230, 180, 54);
+    --orange: rgb(255, 164, 0);
+    --green: rgb(12, 206, 107);
     --light-opac-1: rgba(248, 248, 248, .1);
     --light-opac-2: rgba(248, 248, 248, .2);
     --light-opac-4: rgba(248, 248, 248, .4);
@@ -45,105 +37,67 @@
 }
 
 :root {
-    --color-bg-accent: var(--theme-8);
-    --color-bg-accent-alt: var(--theme-7);
-    --color-bg-accent-alt-2: var(--theme-6);
-    --color-bg-base: var(--white);
-    --color-bg-body: var(--gray-15);
-    --color-bg-gray: var(--gray-8);
-    --color-bg-opac-2: var(--light-opac-2);
-    --color-bg-opac-4: var(--light-opac-4);
-    --color-bg-opac-6: var(--light-opac-6);
-    --color-bg-opac-8: var(--light-opac-8);
-    --color-tx-accent: var(--theme-8);
-    --color-tx-base: var(--black);
-    --color-tx-alt: var(--gray-3);
-    --color-tx-alt-2: var(--gray-7);
+    --color-text-highlight: var(--highlight);
+    --color-text-black: var(--gray-1);
+    --color-text-black-alt: var(--gray-3);
+    --color-text-black-alt-2: var(--gray-7);
+    --color-text-white: var(--gray-15);
+    --color-text-white-alt: var(--gray-13);
+    --color-text-white-alt-2: var(--gray-9);
+    --color-background-highlight: var(--highlight);
+    --color-background-primary: var(--white);
+    --color-background-secondary: var(--gray-15);
+    --color-background-gray: rgb(58, 63, 69);
+    --color-background-gray-alt: rgb(48, 53, 58);
     --color-border-base: var(--gray-12);
-    --color-bg-hover: var(--dark-opac-1);
     --color-shadow-2: var(--dark-opac-2);
     --color-shadow-4: var(--dark-opac-4);
     --color-shadow-6: var(--dark-opac-6);
     --color-shadow-8: var(--dark-opac-8);
+    --color-highlight: var(--highlight);
+    --color-shell: var(--shell);
     --color-red: var(--red);
     --color-white: var(--white);
     --color-black: var(--black);
 }
 
-body {
+::selection {
+    background-color: rgb(117, 25, 163, .85);
+    color: #fff;
+}
+
+.css-background-highlight {
+    background-color: rgb(117, 25, 163);
+    background-color: var(--highlight);
+}
+.css-background-red {
+    background-color: rgb(240, 71, 71);
+    background-color: var(--red);
+}
+.css-background-base {
     background-color: rgb(255, 255, 255);
-    background-color: var(--color-bg-base);
-    color: rgb(24, 24, 24);
-    color: var(--color-tx-base);
+    background-color: var(--color-background-primary);
 }
-
-.css-bg-accent {
-    background-color: rgb(217, 32, 84);
-    background-color: var(--color-bg-accent);
+.css-background-alt {
+    background-color: rgb(48, 53, 58);
+    background-color: var(--color-background-secondary);
 }
-
-.css-bg-accent-alt {
-    background-color: rgb(202, 30, 78);
-    background-color: var(--color-bg-accent-alt);
+.css-background-black {
+    background-color: rgb(24, 24, 24);
+    background-color: var(--gray-1);
 }
-
-.css-bg-accent-alt-2 {
-    background-color: rgb(187, 28, 73);
-    background-color: var(--color-bg-accent-alt-2);
-}
-
-.css-bg-transparent {
+.css-background-transparent {
     background-color: transparent;
 }
-
-.css-bg-base {
-    background-color: rgb(255, 255, 255);
-    background-color: var(--color-bg-base);
+.css-background-black-opac-6 {
+    background-color: var(--dark-opac-6);
+    background-color: var(--color-shadow-6);
 }
-
-.css-bg-reverse {
-    background-color: rgb(24, 24, 24);
-    background-color: var(--color-tx-base);
+.css-background-white-opac-6 {
+    background-color: var(--light-opac-6);
 }
-
-.css-bg-body {
-    background-color: rgb(248, 248, 248);
-    background-color: var(--color-bg-body);
-}
-
-.css-bg-red {
-    background-color: rgb(240, 71, 71);
-    background-color: var(--color-red);
-}
-
-.css-bg-white {
-    background-color: rgb(255, 255, 255);
-    background-color: var(--color-white);
-}
-
-.css-bg-black {
-    background-color: rgb(24, 24, 24);
-    background-color: var(--color-black);
-}
-
-.css-bg-opac-2 {
-    background-color: rgba(248, 248, 248, .2);
-    background-color: var(--color-bg-opac-2);
-}
-
-.css-bg-opac-4 {
-    background-color: rgba(248, 248, 248, .4);
-    background-color: var(--color-bg-opac-4);
-}
-
-.css-bg-opac-6 {
-    background-color: rgba(248, 248, 248, .6);
-    background-color: var(--color-bg-opac-6);
-}
-
-.css-bg-opac-8 {
-    background-color: rgba(248, 248, 248, .8);
-    background-color: var(--color-bg-opac-8);
+.css-background-white-opac-8 {
+    background-color: var(--light-opac-8);
 }
 
 .css-btn-base {
@@ -183,114 +137,86 @@ body {
     background-color: transparent !important;
 }
 
-.css-tx-accent {
-    color: rgb(217, 32, 84);
-    color: var(--color-tx-accent);
-}
-
-.css-tx-base {
+.css-text-black {
     color: rgb(24, 24, 24);
-    color: var(--color-tx-base);
+    color: var(--color-text-black);
 }
-
-.css-tx-des {
-    color: rgb(36, 32, 34);
-    color: var(--color-tx-alt);
+.css-text-black-alt {
+    color: rgb(40, 40, 40);
+    color: var(--color-text-black-alt);
 }
-
-.css-tx-hint {
+.css-text-black-alt-2 {
     color: rgb(80, 80, 80);
-    color: var(--color-tx-alt-2);
+    color: var(--color-text-black-alt-2);
 }
-
-.css-tx-reverse {
-    color: rgb(255, 255, 255);
-    color: var(--color-bg-base);
+.css-text-white {
+    color: rgb(248, 248, 248);
+    color: var(--color-text-white);
 }
-
-.css-tx-red {
+.css-text-white-alt {
+    color: rgb(232, 232, 232);
+    color: var(--color-text-white-alt);
+}
+.css-text-white-alt-2 {
+    color: rgb(168, 168, 168);
+    color: var(--color-text-white-alt-2);
+}
+.css-text-highlight {
+    color: rgb(117, 25, 163);
+    color: var(--color-text-highlight);
+}
+.css-text-red {
     color: rgb(240, 71, 71);
-    color: var(--color-red);
+    color: var(--red);
 }
-
-.css-tx-white {
-    color: rgb(255, 255, 255);
-    color: var(--color-white);
-}
-
-.css-tx-black {
-    color: rgb(24, 24, 24);
-    color: var(--color-black);
+.css-text-shell {
+    color: rgb(255, 134, 134);
+    color: var(--shell);
 }
 
 .css-border-transparent {
     border-color: transparent;
 }
-
 .css-border-current {
     border-color: currentColor;
 }
-
 .css-border-base {
     border-color: rgb(224, 224, 224);
     border-color: var(--color-border-base);
 }
-
 .css-border-top-base {
     border-top-color: rgb(224, 224, 224);
     border-top-color: var(--color-tx-base);
 }
-
 .css-border-right-base {
     border-right-color: rgb(224, 224, 224);
     border-right-color: var(--color-tx-base);
 }
-
 .css-border-left-base {
     border-left-color: rgb(224, 224, 224);
     border-left-color: var(--color-tx-base);
 }
-
 .css-border-bottom-base {
     border-bottom-color: rgb(224, 224, 224);
     border-bottom-color: var(--color-border-base);
 }
-
-.css-border-accent {
-    border-color: rgb(217, 32, 84);
-    border-color: var(--color-bg-accent);
+.css-border-highlight {
+    border-color: rgb(117, 25, 163);
+    border-color: var(--highlight);
 }
-
-.css-border-top-accent {
-    border-top-color: rgb(217, 32, 84);
-    border-top-color: var(--color-bg-accent);
-}
-
-.css-border-right-accent {
-    border-right-color: rgb(217, 32, 84);
-    border-right-color: var(--color-bg-accent);
-}
-
-.css-border-left-accent {
-    border-left-color: rgb(217, 32, 84);
-    border-left-color: var(--color-bg-accent);
-}
-
-.css-border-bottom-accent {
-    border-bottom-color: rgb(217, 32, 84);
-    border-bottom-color: var(--color-bg-accent);
+.css-border-red {
+    border-color: rgb(240, 71, 71);
+    border-color: var(--red);
 }
 
 .css-shadow-2 {
     box-shadow: 0px 0px 2px 1px rgba(24, 24, 24, .2);
     box-shadow: 0px 0px 2px 1px var(--color-shadow-2);
 }
-
 .css-shadow-4 {
     box-shadow: 0px 0px 4px 3px rgba(24, 24, 24, .2);
     box-shadow: 0px 0px 4px 3px var(--color-shadow-2);
 }
-
 .css-shadow-6 {
     box-shadow: 0px 0px 6px 5px rgba(24, 24, 24, .2);
     box-shadow: 0px 0px 6px 5px var(--color-shadow-2);
